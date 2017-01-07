@@ -1,0 +1,33 @@
+{
+  "name": "greedy-split",
+  "version": "1.0.0",
+  "author": {
+    "name": "Shahar Talmi",
+    "email": "shahart@wix.com",
+    "url": ""
+  },
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "wix-node-build start",
+    "pretest": "wix-node-build lint && wix-node-build build",
+    "build": ":",
+    "test": "wix-node-build test",
+    "release": "wix-node-build release"
+  },
+  "dependencies": {
+  },
+  "private": false,
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "wix-node-build": "latest"
+  },
+  "eslintConfig": {
+    "extends": "wix/esnext"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
