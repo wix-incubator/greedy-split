@@ -17,12 +17,11 @@
     "test": "yoshi test",
     "release": "yoshi release"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "private": false,
   "devDependencies": {
     "chai": "^3.5.0",
-    "yoshi": "latest",
+    "@wix/yoshi": "latest",
     "babel-preset-stage-0": "^6.5.0",
     "babel-preset-es2015": "^6.9.0"
   },
